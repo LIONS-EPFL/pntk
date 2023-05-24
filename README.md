@@ -1,6 +1,8 @@
 # Extrapolation and Spectral Bias of Neural Nets with Hadamard Product: a Polynomial Net Study
 
-Code for the PNTK, Neurips'22 paper "[Extrapolation and Spectral Bias of Neural Nets with Hadamard Product: a Polynomial Net Study](https://arxiv.org/abs/2209.07736)"
+Code for the Neurips'22 paper called "[Extrapolation and Spectral Bias of Neural Nets with Hadamard Product: a Polynomial Net Study](https://arxiv.org/abs/2209.07736)".
+
+The repo includes the source code for various experiments in the paper.
 
 
 ## Requirement
@@ -37,7 +39,7 @@ cd extra
 sh script_extra.sh
 ```
 
-## For the expeirment on VAEC dataset
+## For the experiment on VAEC dataset
 Firstly, download the dataset base on the instruction in the [original repo](https://github.com/taylorwwebb/learning_representations_that_support_extrapolation). Then run the followng command to generate data: 
 ```
 cd extra/dset_gen
@@ -49,7 +51,7 @@ cd script
 sh context_norm_scale_extrap.sh
 ```
 
-## To run the experiemnt on spectral bias
+## To run the experiment on spectral bias
 To train the network on MNIST dataset: run
 ```
 cd spectral
@@ -75,7 +77,7 @@ If you use this code, please cite
 @inproceedings{
 wu2022extrapolation,
 title={Extrapolation and Spectral Bias of Neural Nets with Hadamard Product: a Polynomial Net Study},
-author={Yongtao Wu and Zhenyu Zhu and Fanghui Liu and Grigorios Chrysos and Volkan Cevher},
+author={Yongtao Wu and Zhenyu Zhu and Fanghui Liu and Grigorios G Chrysos and Volkan Cevher},
 booktitle={Advances in Neural Information Processing Systems},
 year={2022},
 }
